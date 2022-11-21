@@ -1,0 +1,205 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+   int i = 1;
+    int max = -1;
+    int num;
+    do
+    {
+      num = Convert.ToInt32(Console.ReadLine());
+      i++;
+      if (num > max)
+      {
+        max = num;
+      }
+      while (i <= 5);
+    }
+    Console.WriteLine("Maxiumum is " +max);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int sum = 0;
+    int mark; int i = 1;
+    double average; 
+    while (i <= 7)
+    {
+      mark = Convert.ToInt32(Console.ReadLine());
+      sum += mark;
+      i++;
+    }
+    average = Convert.ToDouble(sum) / 7;
+    Console.WriteLine("Average = " + average)
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+   int x, y;
+    x = Convert.ToInt32(Console.ReadLine());
+    y = Convert.ToInt32(Console.ReadLine());
+    int z = 1;
+    for(int i = 1; i <= y; i++)
+    {
+      z * = x;
+    }
+    Console.WriteLine(z);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+double number, sum =0.0;
+    // the body of the loop is executed at least once
+    do
+    {
+      Console.WriteLine("Enter a number: ");
+      number = Convert.ToDouble(Console.ReadLine());
+      sum += number;
+    }
+    while (number != 0.0);
+    Console.WriteLine("Sum =" + sum);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+   int i = 0;
+    do
+    {
+    Console.WriteLine(i);
+      i++;
+    } 
+    while (i < 5);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+int a = 10;
+    while (a < 20)
+    {
+      Console.WriteLine(a);
+      a++;
+    }
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int sum = 0;
+    int num = Convert.ToInt32(Console.ReadLine());
+    while (num != -999)
+    {
+      if (num %2 != 0)
+      {
+        sum += num;
+      }
+      num = Convert.ToInt32(Console.ReadLine());
+    }
+    Console.WriteLine (sum);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int i = 0;
+    while (i < 5)
+    {
+      Console.WriteLine(i);
+      i++;
+    }
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int n = 5;
+    for (int i = 1; i <= n; i++)
+    {
+      for (int j = 1; j<= i; j++)
+      {
+        Console.Write("*");
+      }
+      Console.WriteLine();
+    }
+  }
+}
+using System;
+
+class Program 
+{
+  public static void Main (string[] args) 
+  {
+    int n = 4;
+    for (int i = 1; i <= n; i++)
+    {
+      for (int j = 1; j <= 8; j++)
+      {
+        Console.Write("*");
+      }
+      Console.WriteLine();
+    }  
+  }
+}
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        int n = 3;
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 1; j <= 10; j++)
+            {
+                Console.WriteLine((i * j) + "\t");
+            }
+            Console.WriteLine();
+        }
+        
+
+}
+}  
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  int sum = 0;
+    for (int i = 1; i < 10; i +=2)
+    {
+      sum += i;
+    }
+    Console.WriteLine(sum);
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    for (int i = 10; i > 0; i--)
+    {
+      Console.WriteLine(i);
+    }
+  }
+}
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    for (int i = 0; i <= 10; i += 2)
+    {
+      Console.WriteLine(i);
+    }
+  }
+}
